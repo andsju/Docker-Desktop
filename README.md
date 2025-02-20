@@ -112,7 +112,7 @@ I Visual Studio Code finns tillägg som kan användas för att hantera WSL:
 
 ## Hyper-V nested virtualisering
 
-Om Hyper-V används för att en klient ska hantera virtualisering via Docker Desktop ange följande kommando i PowerShell för värden (i exemplet heter den virtuella klienten *Win10*):
+Om Hyper-V används för att en klient ska hantera virtualisering via Docker Desktop ange följande kommando i PowerShell för värden (i exemplet heter den virtuella klienten *Win-1*):
 
 ```bash
 Set-VMProcessor -VMName Win-1 -ExposeVirtualizationExtensions $true
