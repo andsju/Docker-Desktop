@@ -3,6 +3,11 @@
 
 Docker Desktop kan installeras i olika miljöer. Den här guiden fokuserar på Windows.
 
+## Aktivera möjligheten till virtualisering i BIOS
+
+För att använda Docker Desktop behöver datorn ha stöd för virtualisering. Den inställningen görs i BIOS. 
+
+Sök efter *enable virtualization in bios* för den dator som du har.
 
 ## Installera Docker Desktop i Windows
 
